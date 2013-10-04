@@ -1,0 +1,104 @@
+/* ===================================
+/* ===== BODY */
+
+@import url('fonts/font.css');
+
+body {
+    padding-top: 60px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+
+
+/* ===================================
+/* ===== CONTENT */
+
+.not-found-icon {
+    visibility: hidden;
+}
+
+.not-found-title {
+    color: #75a92a;
+    margin: 20px 0 25px;
+    font-family: 'OpenSansSemibold', Arial, sans-serif;
+}
+
+.not-found-message {
+    color: #565656;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 35px;
+    font-family: 'OpenSansLight', Arial, sans-serif;
+}
+
+.btn-not-found {
+    font-size: 16px;
+    padding: 15px 50px;
+    background: #75a92a;
+    border-color: #75a92a;
+    margin: 0 15px 15px 15px;
+    font-family: 'OpenSansSemibold', Arial, sans-serif;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.btn-not-found:hover {
+    background: #4e7b0e;
+    border-color: #4e7b0e;
+}
+
+.fadeIn{
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+
+    visibility: visible !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    80% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;
+    }
+    60% {
+        -webkit-transform: scale(1.1);
+    }
+    80% {
+        -webkit-transform: scale(0.9);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
