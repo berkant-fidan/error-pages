@@ -1,4 +1,4 @@
-error-pages
+Hata Sayfaları
 ===========
 
-Hata Sayfaları
+- 404
